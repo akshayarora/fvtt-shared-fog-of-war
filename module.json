@@ -1,0 +1,14 @@
+{
+  "name": "shared-fow",
+  "title": "Shared Fog of War",
+  "description": "This module enables Fog of War to be shared by PCs",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.5.3",
+  "author": "akshayarora",
+  "scripts": ["shared-fow.js"],
+  "styles": [],
+  "packs": [],
+  "url": "https://github.com/akshayarora/fvtt-shared-fog-of-war",
+  "manifest": "https://raw.githubusercontent.com/akshayarora/fvtt-shared-fog-of-war/master/module.json",
+  "download": "https://github.com/akshayarora/fvtt-shared-fog-of-war/archive/master.zip"
+}
