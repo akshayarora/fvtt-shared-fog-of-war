@@ -15,11 +15,10 @@ class SharedFogOfWar {
 
 	static setup() {
 		console.log("shared fow setup");
-		Patches.replaceGetter(SightLayer, "computeSight", function(origin, options={}){
-      // Unclear when Compute Sight is called, not seeing this happening
-			console.log("computing sight");
-			sight = Patches.callOriginalGetter(this, "computeSight", origin, options);
-			return sight;
+		Patches.replaceGetter(SightLayer, "updateToken", function(token, options={}){
+			console.log("updating token");
+			originalResult = Patches.callOriginalGetter(this, "updateToken", token, options);
+			return originalResult;
 		});
 	}
 }
