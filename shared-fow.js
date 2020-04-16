@@ -31,7 +31,7 @@ class SharedFogOfWar {
       */
       // Vision is displayed if the token is controlled, or if it is observed
       let displayVision = token._controlled;
-      if ( !displayVision ) {
+      if ( !displayVision && !game.user.isGM ) {
         displayVision = token.actor && token.actor.hasPerm(game.user, "OBSERVER");
       }
 
