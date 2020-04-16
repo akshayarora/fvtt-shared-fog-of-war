@@ -10,5 +10,5 @@
   "packs": [],
   "url": "https://github.com/akshayarora/fvtt-shared-fog-of-war",
   "manifest": "https://raw.githubusercontent.com/akshayarora/fvtt-shared-fog-of-war/master/module.json",
-  "download": "https://github.com/akshayarora/fvtt-shared-fog-of-war/archive/master.zip"
+  "download": "https://github.com/akshayarora/fvtt-shared-fog-of-war/releases/download/v0.0.1/fvtt-shared-fog-of-war.zip"
 }
